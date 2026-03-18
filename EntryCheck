@@ -1,0 +1,15 @@
+// This program checks if a user can enter an event.
+
+public class EntryCheck {
+    public static void main(String[] args) {
+
+        boolean hasTicket = false;
+        boolean isVIP = true;
+
+        if (hasTicket || isVIP) {
+            System.out.println("Welcome in!");
+        } else {
+            System.out.println("Access denied.");
+        }
+    }
+}
